@@ -1,10 +1,10 @@
 # Where things are
 source:      .
 destination: ./_site
-plugins:     ./_plugins
-layouts:     ./_layouts
-data_source: ./_data
-collections: null
+plugins_dir:     ./_plugins
+layouts_dir:     ./_layouts
+data_dir: ./_data
+# collections: null
 
 # Handling Reading
 safe:         false
@@ -22,11 +22,11 @@ unpublished: false
 
 # Plugins
 whitelist: []
-gems:      []
+gems:      [jekyll-paginate]
 
 # Conversion
 markdown:    kramdown
-highlighter: rouge
+highlighter: pygments
 lsi:         false
 excerpt_separator: "\n\n"
 
@@ -37,7 +37,8 @@ host:    127.0.0.1
 baseurl: "" # does not include hostname
 
 # Outputting
-permalink:     date
+permalink:     /:title.html
+paginate: 10
 paginate_path: /page:num
 timezone:      null
 
@@ -66,5 +67,6 @@ kramdown:
     coderay_tab_width:         4
     coderay_bold_every:        10
     coderay_css:               style
+
 
 include: ['_pages']
