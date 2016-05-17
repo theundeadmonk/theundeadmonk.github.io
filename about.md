@@ -4,12 +4,8 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
-
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+I am a software engineer specializing in distributed systems and scalability.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[adityamattos@outlook.com](mailto:adityamattos@outlook.com)
