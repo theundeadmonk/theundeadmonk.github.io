@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My first posy
+title: My first post
 ---
 
 Hello World!
